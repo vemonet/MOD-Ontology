@@ -1,0 +1,1135 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "fr", "undefined" ],
+    "iri" : "http://www.isibang.ac.in/ns/mod/ontology",
+    "other" : {
+      "Contributor" : [ {
+        "identifier" : "Contributor",
+        "language" : "en",
+        "value" : "Anne Toulet (https://orcid.org/0000-0003-0463-0854)",
+        "type" : "label"
+      }, {
+        "identifier" : "Contributor",
+        "language" : "en",
+        "value" : "Udaya Varadarajan (https://orcid.org/0000-0002-4936-0272)",
+        "type" : "label"
+      } ],
+      "Title" : [ {
+        "identifier" : "Title",
+        "language" : "fr",
+        "value" : "MOD: Metadonnées pour la Description et la publication d'Ontologies",
+        "type" : "label"
+      }, {
+        "identifier" : "Title",
+        "language" : "en",
+        "value" : "Metadata for Ontology Description and Publication Ontology",
+        "type" : "label"
+      } ],
+      "Coverage" : [ {
+        "identifier" : "Coverage",
+        "language" : "en",
+        "value" : "Ontologies or semantic resources in general (thesaurus, terminologies, vocabularies, etc.).",
+        "type" : "label"
+      }, {
+        "identifier" : "Coverage",
+        "language" : "undefined",
+        "value" : "Ontologies or semantic resources in general (thesaurus, terminologies, vocabularies, etc.)",
+        "type" : "label"
+      }, {
+        "identifier" : "Coverage",
+        "language" : "fr",
+        "value" : "Les ontologies ou les ressources sémantiques en général (thésaurus, terminologies, vocabulaires, etc.).",
+        "type" : "label"
+      } ],
+      "Creator" : [ {
+        "identifier" : "Creator",
+        "language" : "en",
+        "value" : "Biswanath Dutta (https://orcid.org/0000-0003-3059-8202)",
+        "type" : "label"
+      }, {
+        "identifier" : "Creator",
+        "language" : "en",
+        "value" : "Clement Jonquet (https://orcid.org/0000-0002-2404-1582)",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "0"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#Analytics",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "instances" : 0,
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Activity",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "id" : "5"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Agent",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "subClasses" : [ "10", "11" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "id" : "10",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19"
+  }, {
+    "iri" : "http://purl.org/dc/terms/RightsStatement",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "subClasses" : [ "25" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#Ontology",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "instances" : 0,
+    "id" : "3"
+  }, {
+    "iri" : "http://purl.org/dc/terms/Policy",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#EvaluationCriteria",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "instances" : 0,
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Project",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "id" : "34"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#EvaluationMethod",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "instances" : 0,
+    "id" : "37"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#KnowledgeRepresentationParadigm",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "23"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "id" : "11",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologyType",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64"
+  }, {
+    "iri" : "http://purl.org/dc/terms/Frequency",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "id" : "27"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#Evaluation",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "instances" : 0,
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#FormalityLevel",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "80"
+  }, {
+    "iri" : "http://purl.org/dc/terms/MethodOfAccrual",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "id" : "56"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#Group",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "instances" : 0,
+    "id" : "86"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringTool",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "4"
+  }, {
+    "iri" : "http://purl.org/dc/terms/LicenseDocument",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "id" : "25",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologySyntax",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "45"
+  }, {
+    "iri" : "http://schema.org/Comment",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "id" : "97"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologyLanguage",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "84"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologyEngineeringMethodology",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "21"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "16",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "18",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "20",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "22",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "33",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "35",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "46",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "47",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "52",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "67",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "70",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "92",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "107",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "108",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "4",
+    "minCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#evaluationBasedOnCriteria",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "8",
+    "minCardinality" : "1",
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#usedBy",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#hasEquivalencesWith",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#specializes",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "range" : "3",
+    "maxCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://identifiers.org/idot/exampleIdentifier",
+    "baseIri" : "http://identifiers.org/idot",
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#isOfType",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "17",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/homepage",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "19",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringMethodology",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "21",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#conformsToKnowledgeRepresentationParadigm",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "23",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://purl.org/dc/terms/accrualPeriodicity",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "27",
+    "maxCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#numberOfObjectProperties",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "30",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#numberOfIndividuals",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "32",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://purl.org/dc/terms/bibliographicCitation",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "31",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#ontologyInUse",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "34",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://purl.org/pav/curatedBy",
+    "baseIri" : "http://purl.org/pav",
+    "range" : "11",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#synonymProperty",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "40",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.org/dc/terms/accessRights",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://purl.org/dc/terms/accrualPolicy",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "28",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#hasOntologySyntax",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "45",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#specializes",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#hierarchyProperty",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "48",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://purl.org/dc/terms/isPartOf",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "3",
+    "superproperty" : [ "50" ],
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://purl.org/dc/terms/accrualPeriodicity",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "27",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#prefLabelProperty",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "42",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://purl.org/dc/terms/contributor",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "9",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://purl.org/dc/terms/accrualMethod",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "56",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#designedForOntologyTask",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "54",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#isOfType",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "17",
+    "maxCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/fundedBy",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "9",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://schema.org/translator",
+    "baseIri" : "http://schema.org",
+    "range" : "9",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#hasEvaluation",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "7",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://purl.org/dc/terms/relation",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "3",
+    "domain" : "3",
+    "subproperty" : [ "62", "49" ],
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://identifiers.org/idot/exampleIdentifier",
+    "baseIri" : "http://identifiers.org/idot",
+    "range" : "64",
+    "maxCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://schema.org/translationOfWork",
+    "baseIri" : "http://schema.org",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#numberOfClasses",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "66",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://purl.org/dc/terms/creator",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "9",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#hasDisjunctionsWith",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#hasOntologySyntax",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "45",
+    "maxCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://kannel.open.ac.uk/ontology#hasDisparateModelling",
+    "baseIri" : "http://kannel.open.ac.uk/ontology",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#BackwardCompatibleWith",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#evaluationMethod",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "37",
+    "minCardinality" : "1",
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://purl.org/dc/terms/License",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "25",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#numberOfLabels",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "78",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringMethodology",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "21",
+    "minCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://schema.org/translationOfWork",
+    "baseIri" : "http://schema.org",
+    "range" : "3",
+    "maxCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#hasOntologyLanguage",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "84",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#generalizes",
+    "inverse" : "14",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#hasFormalityLevel",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "80",
+    "maxCardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#analytics",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://purl.org/dc/terms/audience",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "9",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#hasOntologyLanguage",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "84",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#hasFormalityLevel",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "80",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#definitionProperty",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "93",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "5",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#group",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "86",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://kannel.open.ac.uk/ontology#comesFromTheSameDomain",
+    "baseIri" : "http://kannel.open.ac.uk/ontology",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#evaluationAuthor",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "9",
+    "domain" : "7",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://purl.org/dc/terms/publisher",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "10",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#classesWithOneChild",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "101",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasinvalidatedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "5",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#hasEvaluation",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "7",
+    "domain" : "3",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#evaluationAuthor",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "9",
+    "minCardinality" : "1",
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#keyClasses",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "106",
+    "domain" : "3",
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#evaluationBasedOnCriteria",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#evaluationMethod",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "range" : "37",
+    "domain" : "7",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://creativecommons.org/ns#useGuidelines",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "68",
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#conformsToKnowledgeRepresentationParadigm",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "23",
+    "cardinality" : "1",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#similar",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#endorsedBy",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "9",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://creativecommons.org/ns#morePermissions",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "69",
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://schema.org/comment",
+    "baseIri" : "http://schema.org",
+    "range" : "97",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#IncompatibleWith",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "115"
+  } ]
+}
