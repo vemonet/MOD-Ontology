@@ -1,0 +1,125 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "fr", "undefined" ],
+    "iri" : "http://www.isibang.ac.in/ns/mod/ontology",
+    "other" : {
+      "Contributor" : [ {
+        "identifier" : "Contributor",
+        "language" : "en",
+        "value" : "Udaya Varadarajan (https://orcid.org/0000-0002-4936-0272)",
+        "type" : "label"
+      }, {
+        "identifier" : "Contributor",
+        "language" : "en",
+        "value" : "Anne Toulet (https://orcid.org/0000-0003-0463-0854)",
+        "type" : "label"
+      } ],
+      "Title" : [ {
+        "identifier" : "Title",
+        "language" : "fr",
+        "value" : "MOD: Metadonnées pour la Description et la publication d'Ontologies",
+        "type" : "label"
+      }, {
+        "identifier" : "Title",
+        "language" : "en",
+        "value" : "Metadata for Ontology Description and Publication Ontology",
+        "type" : "label"
+      } ],
+      "Coverage" : [ {
+        "identifier" : "Coverage",
+        "language" : "fr",
+        "value" : "Les ontologies ou les ressources sémantiques en général (thésaurus, terminologies, vocabulaires, etc.).",
+        "type" : "label"
+      }, {
+        "identifier" : "Coverage",
+        "language" : "undefined",
+        "value" : "Ontologies or semantic resources in general (thesaurus, terminologies, vocabularies, etc.)",
+        "type" : "label"
+      }, {
+        "identifier" : "Coverage",
+        "language" : "en",
+        "value" : "Ontologies or semantic resources in general (thesaurus, terminologies, vocabularies, etc.).",
+        "type" : "label"
+      } ],
+      "Creator" : [ {
+        "identifier" : "Creator",
+        "language" : "en",
+        "value" : "Biswanath Dutta (https://orcid.org/0000-0003-3059-8202)",
+        "type" : "label"
+      }, {
+        "identifier" : "Creator",
+        "language" : "en",
+        "value" : "Clement Jonquet (https://orcid.org/0000-0002-2404-1582)",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://purl.org/dc/terms/Frequency",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "id" : "0"
+  }, {
+    "iri" : "http://www.isibang.ac.in/ns/mod#Evaluation",
+    "baseIri" : "http://www.isibang.ac.in/ns/mod",
+    "instances" : 0,
+    "id" : "1"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "id" : "2"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#FormalityLevel",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "4"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Project",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "id" : "8"
+  }, {
+    "iri" : "http://schema.org/Comment",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "id" : "11"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologyLanguage",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "16"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologyType",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "id" : "17"
+  } ]
+}
